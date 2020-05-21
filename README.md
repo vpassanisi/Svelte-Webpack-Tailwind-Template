@@ -4,7 +4,7 @@ A starter template for svelte using webpack and tailwind css. Webpack is usefull
 
 by default I have set the dev-server to proxy any request the app makes starting with "/api" through "http://localhost:3000". This behavior can be changes in webpack.config.js.
 
-tailwind outputs classes to src/CSS/tailwind.css and is configured to use the built in class purging to remove unused classes at build (the tailwind doc says it is faster than purgecss ¯\_(ツ)\_/¯). build output files are minified.
+tailwind outputs classes to src/CSS/tailwind.css and is configured to use the built in class purging to remove unused classes at build (the tailwind doc says it is faster than purgecss ¯\\\_(ツ)\_/¯). build output files are minified.
 
 ## Configuration
 
@@ -37,7 +37,7 @@ npm run start
 -run build
 
 ```
-npm run start
+npm run build
 ```
 
 -deploy the public directory
